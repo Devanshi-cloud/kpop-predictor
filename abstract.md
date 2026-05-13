@@ -1,0 +1,7 @@
+## Abstract
+
+The rapid global rise of K-pop has transformed it into one of the most influential music genres on digital streaming platforms such as Spotify. Predicting whether a K-pop song will become popular has significant value for artists, producers, and music platforms aiming to understand listener preferences and optimize content strategies. This project, titled “KPOPular or Not?”, focuses on predicting the popularity of K-pop songs using machine learning techniques based on song audio characteristics and artist information.
+
+The dataset consists of multiple audio-related features such as energy, danceability, valence, liveness, acousticness, and artist identity. After preprocessing and feature engineering, multiple supervised classification models including Logistic Regression, Random Forest, Support Vector Machine (SVM), XGBoost, and K-Nearest Neighbors (KNN) were trained and evaluated. Performance was measured using cross-validation accuracy, test accuracy, and confusion matrix analysis.
+
+Among all models, the KNN classifier demonstrated the highest test accuracy of 71.4%, while SVM showed consistent and balanced performance across metrics. A web-based application was developed using Streamlit to allow users to input song characteristics and predict whether a song is likely to become popular. This project demonstrates the practical application of machine learning in music analytics and recommendation systems.
